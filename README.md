@@ -28,6 +28,7 @@ under `crawlee-port/`.
 
 📉 984 TypeScript lines (session rotation, politeness, and the retry decision) → **540 Java lines**<br>
 📁 4 files → **11 files**<br>
+⚡ 6.5 nanoseconds → **1.2 nanoseconds** to decide whether a failed request can be retried<br>
 🧪 0 tests → **40 tests, 5 mutation probes, all killed by the intended test**<br>
 🔌 a library called in-process → **an HTTP surface, one crawl run per entity**
 
@@ -37,9 +38,9 @@ Full method and the numbers that did *not* make this list: [`bench/REPORT.md`](h
 
 ## What it took to build
 
-⏱️ **0.4 hours** from the first command to the published repository, **0.4** of them active<br>
-💬 **279** exchanges with the model<br>
-✍️ **155,551** tokens written by the model, **45,196,609** counting everything sent and re-sent<br>
+⏱️ **0.5 hours** from the first command to the published repository, **0.5** of them active<br>
+💬 **347** exchanges with the model<br>
+✍️ **185,734** tokens written by the model, **62,750,741** counting everything sent and re-sent<br>
 🙋 **0** questions to a human<br>
 🧪 **40** tests
 
